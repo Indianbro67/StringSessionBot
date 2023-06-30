@@ -12,7 +12,7 @@ def filter(cmd: str):
 async def start(bot: Client, msg: Message):
     user = await bot.get_me()
     mention = user.mention
-    await message.reply_photo(photo=f"https://telegra.ph/file/4d4f337cfea91640b5f07.jpg",caption=f"""hi""",
+    await message.reply_photo(photo=f"https://telegra.ph/file/4d4f337cfea91640b5f07.jpg",caption=f"""Hey {}\n\n Welcome to {}\n To Save To Time Photos And Time Video\nGenerating Session\nBy @Black_Devil_Admin""",
         reply_markup=InlineKeyboardMarkup(Data.buttons)
     )
 
