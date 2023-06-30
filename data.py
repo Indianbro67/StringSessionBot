@@ -21,7 +21,7 @@ Hey {}
 
 Welcome to {}
 
-To Save To Time Photos And Time Video\nGenerating Session
+To Save To Timer Photos And Timer Video\nGenerating Session
 
 By @Black_Devil_Admin
     """
