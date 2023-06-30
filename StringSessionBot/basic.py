@@ -12,9 +12,7 @@ def filter(cmd: str):
 async def start(bot: Client, msg: Message):
     user = await bot.get_me()
     mention = user.mention
-    await bot.send_message(
-        msg.chat.id,
-        Data.START.format(msg.from_user.mention, mention),
+    await message.reply_photo(photo=f"https://telegra.ph/file/4d4f337cfea91640b5f07.jpg",caption=f"""hi""",
         reply_markup=InlineKeyboardMarkup(Data.buttons)
     )
 
